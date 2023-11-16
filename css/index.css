@@ -310,6 +310,7 @@
 }
 .hover-br-red{
     border: solid 2px #fafafa;
+    border-radius: 10px !important;
 }
 .hover-br-red:hover{
     border: red solid 2px;
