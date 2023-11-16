@@ -1,0 +1,155 @@
+/* code of second section  
+ da cha awal pa lagi wo*/
+/*
+.secondSection{
+    display: block;
+    margin: auto;
+    padding: 110px 30px 30px 30px;
+    border: 1px solid blue;
+}
+.secondSection .first{
+    margin: auto;
+    width: 100%;
+    /* display: none; 
+}
+.secondSection .second{
+    width: 100%;
+    display: none;
+}
+.secondSection .third{
+   display: none;
+   width: 100%;
+   margin: auto;
+}
+.secondSection .border{
+    width: 420px;
+    height: 420px;
+    border: 13px solid var(--red1);
+}
+.secondSection .border img{
+    width: 157px;
+    top: 71px;
+    left: 120px
+}
+.secondSection .border h2{
+    top: 92px;
+    font-size: 70px;
+}
+.secondSection .belowBorder p{
+    font-size: 55px;
+    margin-top: 56px;
+}
+.secondSection .belowBorder h2{
+font-size: 77px;
+margin-top: 20px;
+}
+
+/* code of video list layout 
+
+.secondSection .first .videosList{
+background-color: transparent;
+border: none;   
+height: 2348px;
+}
+.secondSection .first .videosList img{
+margin: 13px;
+}
+.secondSection .first .videosList .videosListButton button{
+width: 22%;
+display: block;
+margin: auto;
+margin-top: 105px;
+background-color: var(--transparent);
+border: 3px solid var(--red1);
+border-radius: 12px;
+padding: 30px 30px 13px 30px;
+font-size: 50px;
+font-weight: 500;
+text-align: center; 
+}
+
+/* code of form layout 
+
+.secondSection .second .form{
+    margin-top: 70px;
+    padding: 65px 49px;
+}
+.secondSection .second .form .formFirst p{
+    font-size: 50px;
+}
+.secondSection .second .form .formFirst img{
+    width: 58px;
+}
+.secondSection .second .form input{
+    font-size: 50px;
+    padding: 42px;
+    border-radius: 20px;
+}
+.secondSection .second .form .formSecond input{
+    margin-top: 108px;
+}
+.secondSection .second .form .formThird{
+    display: block;
+}
+.secondSection .second .form .formThird input{
+    width: 100%;
+    margin-top: 55px;
+}
+.secondSection .second .form .formFourth p{
+    font-size: 50px;
+    margin-top: 75px;
+}
+.secondSection .second .form .formFifth{
+    display: block;
+}
+.secondSection .second .form .formFifth input{
+    margin-top: 55px;
+    width: 100%;
+}
+.secondSection .second .form .formFifth .inputBelowValidUntil{
+    margin-top:10px ;
+}
+.secondSection .second .form .formSixth{
+    margin-top: 55px;
+}
+.secondSection .second .form .formSeventh{
+    width: 35%;
+    margin: auto;
+    margin-top: 108px;
+}
+.secondSection .second .form .formSeventh button{
+    width: 430px;
+    display: block;
+    padding: 30px 30px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+/* code of video layout 
+
+.secondSection .third .video{
+    background-color: var(--transparent);
+    border: none;
+    margin-top: 70px;
+    height: 2348px;
+    padding: 10px 50px;
+    
+}
+.secondSection .third .video .videosButton button{
+    width: 22%;
+    display: block;
+    margin: auto;
+    margin-top: 145px;
+    background-color: var(--transparent);
+    border: 3px solid var(--red1);
+    border-radius: 12px;
+    padding: 30px 30px 13px 30px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center; 
+    }
+
+
+
+
+

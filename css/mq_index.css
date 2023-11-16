@@ -1,0 +1,36 @@
+@media  screen and (max-width:768px) {
+   
+    /* code of first section  */
+            :root{
+            font-size: 55%;
+        }
+        .firstSection{
+            width: 100%;
+        
+        }
+        .firstSection h1{
+            font-size: 3rem;
+        }
+        .firstSection .cross-icon{
+            width: 3.3rem;
+            height: 3.3rem;
+        }
+
+        .secondSection{
+            flex-direction: column;
+            gap: 4rem;
+            padding: 3rem 2rem;
+        }
+       .secondSection .box{
+        width: 100%;
+       }
+
+       .secondSection .first .videosList{
+        height: fit-content;
+       }
+       .secondSection .first .videosList img{
+        width: 12rem;
+
+       }
+}
+

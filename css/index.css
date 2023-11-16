@@ -1,0 +1,350 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --red1:#ff0000;
+    --white:#ffffff;
+    --black:#000000;
+    --gray98:#fafafa;
+    --gray90:#e5e5e5;
+    --gray71:#b5b5b5;
+    --transparent:transparent;
+    font-size: 62.5%;
+
+}
+@font-face {
+    font-family: sherikaLight;
+    src: url('fonts/sherika_light.ttf');
+}
+@font-face {
+    font-family: sherikaRegular;
+    src: url('fonts/sherika_regular.ttf');
+}
+
+
+
+/* first section code starts from here  */
+
+.header-section{
+    width: auto;
+    height: fit-content;
+}
+.firstSection{
+    max-width: 1440px;
+    width: auto;
+    background-color: var(--red1) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    margin: auto;
+
+}
+.firstSection h1{
+    color:var(--white) ;
+    font-family: sherikaLight;
+    font-size: 3.3rem;
+}
+.firstSection .cross-icon{
+    width: 3rem;
+    height: 3rem;
+    background: url(./../images/cross_button.svg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* padding: 0.3em; */
+    /* border: 1px solid #000; */
+}
+
+    /* second section code starts from here  */
+
+.secondSection{
+    width: auto;
+    max-width: 1440px;
+    padding:40px 30px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+     &> .first{
+        /* width: 25%; */
+        width: 35rem;
+
+         &> .round-border{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &> .video-gellary-button{
+                display: block;
+                width: 3rem;
+                height: 3rem;
+                background: url(./../images/video_gallery_button.svg) no-repeat;
+                background-size: cover;
+                background-position: center center;
+                /* border: 1px solid #000; */
+            }
+        } 
+    }
+}
+.secondSection .second{
+    width: 57rem;
+
+    &> .round-border{
+
+        &> .form-icon{
+            display: block;
+            width: 3rem;
+            height: 3rem;
+            background: url(./../images/rounded_rectangle_button.svg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            /* border: 1px solid #000; */
+        }
+    }
+}
+.secondSection .border{
+    margin: auto;
+    width: 11rem;
+    height: 11rem;
+    border: 2px solid var(--red1);
+    border-radius: 50%;
+    border: red solid 2px !important;
+}
+/* .secondSection .border img{
+    width: 46px;
+    position: relative;
+    top: 27px;
+    left: 43px;
+} */
+.secondSection .border h2{
+    text-align: center;
+    font-family: sherikaRegular;
+    font-size: 2rem;
+    margin-top: 0.7rem;
+    color: var(--black);
+}
+.secondSection .belowBorder p{
+    text-align: center;
+    font-size: 2.1rem;
+    font-family: sherikaLight;
+    font-weight: 600;
+    margin-top: 1.8rem;
+}
+.secondSection .belowBorder h2{
+    text-align: center;
+    color: var(--red1);
+    font-family: sherikaRegular;
+    font-size: 2.4rem;
+    margin-top: 1rem;
+}
+
+/* second section videos list code start from here */
+
+.secondSection .first .videosList{
+    width: 100%;
+    height: 51rem;
+    background-color: var(--gray98);
+    border: 1px solid var(--gray90);
+    padding: 1.5rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.secondSection .first .videosList img{
+    width: 9rem;
+}
+
+.secondSection .first .videosList .videosListButton button{
+    display: none;
+    font-family: sherikaRegular;    
+}
+
+/* second section form code start from here */
+
+.secondSection .second .form{
+    width: 100%;
+    min-height: 510px;
+    background-color: var(--gray98);
+    border: 1px solid var(--gray90);
+    padding: 27px;
+}
+.secondSection .second .form .formFirst{
+    display: flex;
+    justify-content: space-between;
+}
+.secondSection .second .form .formFirst p{
+    font-family:sherikaLight;
+    color: var(--gray71);
+    font-size: 20px;
+}
+.secondSection .second .form .fullWidth{
+    width: 100%;
+}
+.secondSection .second .form input{
+    width: 100%;
+    font-size: 17px;
+    padding: 13px;
+    border-radius: 7px;
+    border: 1px solid var(--gray90);
+    display: block;
+    font-family:sherikaLight;
+}
+.secondSection .second .form .formSecond input{
+    margin-top: 35px;
+
+}
+.secondSection .second .form .formThird{
+    display: flex;
+    justify-content: space-between;
+}
+.secondSection .second .form .formThird input{
+    width: 49%;
+    margin-top: 25px;
+}
+.secondSection .second .form .formFourth p{
+    font-family:sherikaLight;
+    color: var(--gray71);
+    font-size: 20px;
+    margin-top: 25px;
+}
+.secondSection .second .form .formFifth{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.secondSection .second .form .formFifth input{
+    width: 49%;
+    margin-top: 5px;
+}
+.secondSection .second .form .formSixth{
+    margin-top: 25px;
+}
+.secondSection .second .form .formSeventh{
+    margin-top: 35px;
+    width: 100%;
+}
+.secondSection .second .form .formSeventh button{
+    width: 23rem;
+    font-size: 2.2rem;
+    padding: 1rem 0rem 1rem 0rem;
+    color: var(--white);
+    background-color: var(--red1);
+    border: none;
+    border-radius: 1rem;
+    font-family:sherikaRegular;
+    cursor: pointer;
+}
+
+/* second section videos list code start from here */
+
+.third{
+    width: 33rem;
+
+    
+    &> .round-border{
+
+        &> .youtube-icon{
+            display: block;
+            width: 5rem;
+            height: 5rem;
+            background: url(./../images/video-you-tube-youtube-svgrepo-com.svg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            /* border: 1px solid #000; */
+        }
+    }
+}
+.secondSection .third .video{
+    width: 100%;
+    height: 51rem;
+    background-color: var(--gray98);
+    border: 1px solid var(--gray90);
+    margin-top: 2rem;
+    padding: 1.3rem;
+    position: relative;
+}
+.secondSection .third .video video{
+    width: 100%
+    
+}
+.secondSection .third .video .videosButton button{
+    display: none;
+    font-family: sherikaRegular;    
+}
+
+
+
+
+/* utilities
+.secondSection .box{
+    border: 1px solid #000;
+} */
+
+.secondSection .round-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.round-border .btn-icon{
+              display: block;
+                width: 5rem;
+                height: 5rem;
+                background: url(./../images/video_gallery_button.svg) no-repeat;
+                background-size: cover;
+                background-position: center center;
+                /* border: 1px solid #000; */
+    }
+.h-300{
+    height: 380px;
+    overflow-y: auto;
+    padding-bottom: 10px;
+}
+.hover-br-red{
+    border: solid 2px #fafafa;
+}
+.hover-br-red:hover{
+    border: red solid 2px;
+}
+::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar handle */
+    border-radius: 6px; /* Round the corners of the handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: red; /* Change color on hover */
+  }
+  .none{
+    display: none;
+  }
+  .container-fulid{
+    display: none;
+  }
+  @media screen and (max-width:768px) {
+    .secondSection{
+        display: none;
+    }
+    .container-fulid{
+        display: block;
+    }
+    .img{
+        border-radius: 10px;
+    }
+   .text-black-dark{
+    color: #b5c4d9;
+   }
+  }
