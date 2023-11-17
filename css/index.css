@@ -348,6 +348,23 @@
    .text-black-dark{
     color: #b5c4d9;
    }
+   .exposegrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    justify-content: space-between;
+    column-gap: 10px; /* Set the gap between columns */
+    width: 100%;
+    overflow-x: hidden;
+    padding-right: 40px;
+}
+.exposetab {
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
   }
 
 
@@ -476,3 +493,11 @@ display: none;
     text-align: center;
     display: none;
 }
+.img-video{
+    overflow: hidden;
+    width: 130px !important;
+    height: 130px;
+}
+
+
+
